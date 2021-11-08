@@ -89,7 +89,7 @@ function NavContent() {
                 </Typography>
               </Link>
 
-              <Link
+              {/* <Link
                 component={NavLink}
                 id="33-together-nav"
                 to="/33-together"
@@ -102,7 +102,7 @@ function NavContent() {
                   <SvgIcon color="primary" component={PoolTogetherIcon} />
                   3,3 Together
                 </Typography>
-              </Link>
+              </Link> */}
 
               <Link
                 component={NavLink}
@@ -141,7 +141,8 @@ function NavContent() {
             </div>
           </div>
         </div>
-        <Box className="dapp-menu-bottom" display="flex" justifyContent="space-between" flexDirection="column">
+
+        {/* <Box className="dapp-menu-bottom" display="flex" justifyContent="space-between" flexDirection="column">
           <div className="dapp-menu-external-links">
             {Object.keys(externalUrls).map((link, i) => {
               return (
@@ -155,7 +156,7 @@ function NavContent() {
           <div className="dapp-menu-social">
             <Social />
           </div>
-        </Box>
+        </Box> */}
       </Box>
     </Paper>
   );

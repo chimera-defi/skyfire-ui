@@ -127,6 +127,7 @@ export function getTokenImage(name: string) {
 // AccountSlice.ts, AppSlice.ts, LusdSlice.ts
 export function setAll(state: any, properties: any) {
   const props = Object.keys(properties);
+  if (!props) return;
   props.forEach(key => {
     state[key] = properties[key];
   });
